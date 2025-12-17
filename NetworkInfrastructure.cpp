@@ -19,7 +19,6 @@ void NetworkInfrastructure::addDevice(NetworkDevice *device)
 
 void NetworkInfrastructure::displayAllDevices() const
 {
-    std::cout << "=== Infrastructure: " << name << " ===" << std::endl;
     for (auto device : devices)
     {
         device->display();
